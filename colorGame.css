@@ -1,0 +1,58 @@
+body {
+    background: #232323;
+    font-family: 'Lato', sans-serif;
+}
+
+#navigation {
+    background: white;
+}
+
+#title {
+    background: purple;
+    color: white;
+}
+
+#title h1 {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#title h2 {
+    font-weight: 400;
+}
+
+.box {
+    width: 30%;
+    height: 150px;
+    /* background: blue; */
+    border-radius: 25px;
+    margin: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+ul li a {
+    color: purple;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background: purple;
+    color: white;
+    transition: background 500ms, color 500ms;
+}
+
+.active {
+    background: purple;
+    color: white;
+}
+
+.hidden-box {
+    opacity: 0;
+    transition: opacity 500ms;
+}
